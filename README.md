@@ -1,0 +1,2 @@
+# KOOK_JPGCompression
+用于ComfyUI的JPG压缩插件，提供高质量的JPEG图像压缩和保存功能。
