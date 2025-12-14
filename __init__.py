@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-JPG图片压缩节点
+图片压缩节点
 """
 
-from .nodes import JPGImageCompression, SaveJPGImage
+from .nodes import ImageCompression, SaveJPGImage
 
 # 注册节点
 NODE_CLASS_MAPPINGS = {
-    "KOOK_JPGImageCompression": JPGImageCompression,
+    "KOOK_ImageCompression": ImageCompression,
     "KOOK_SaveJPGImage": SaveJPGImage
 }
 
 # 节点显示名称
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "KOOK_JPGImageCompression": "JPG图片压缩",
+    "KOOK_ImageCompression": "高质量图片压缩",
     "KOOK_SaveJPGImage": "保存JPG图像"
 }
 
